@@ -1,4 +1,5 @@
 import daisyui from "daisyui";
+// import { themes } from "daisyui/src/theming/themes";
 
 /** @type {import('tailwindcss').Config} */
 export default {
@@ -7,7 +8,7 @@ export default {
     extend: {},
   },
   plugins: [daisyui],
-  // daisyui: {
-  //   themes: ["black"], // 👈 Force black theme globally
-  // },
+  daisyui: {
+    themes: ["black"], // 👈 Force black theme globally
+  },
 };
